@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/leonard-li/YF_DataAcqu_SPM.git",
-            from: "5.3.7"
+            from: "5.3.8"
         )
     ],
     targets: [
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "YF_Remote_Binary",
-            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/remote/1.2.9/YFConfig.xcframework.zip",
-            checksum: "4aa183d55dfd4d9e09bba2d1aad9307ba4973f74511ae27a95670d802c0e49b1"
+            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/remote/1.3.0/YFConfig.xcframework.zip",
+            checksum: "e975856c8054205950f2bd6f496dcf5eb09fc92db0fcf4310590dac6c36d6f12"
         )
     ]
 )
